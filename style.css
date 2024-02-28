@@ -230,7 +230,12 @@ button {
   text-align: left;
   cursor: pointer;
   color: black;
+  transition: all 0.4s ease-in-out;
   position: relative;
+}
+
+.club-map:hover {
+  color: #0f6f24;
 }
 
 .club-map:before {
@@ -256,6 +261,7 @@ button {
 
 .button-learn:hover {
   background-color: #e2f1ff;
+  color: #0f6f24;
 }
 
 .footer-wrapper {
@@ -287,7 +293,7 @@ svg path {
 }
 
 svg:hover path {
-  fill: rgb(6, 4, 139);
+  fill: #0f6f24;
 }
 
 svg:hover {
@@ -302,7 +308,7 @@ svg:hover {
 }
 
 .email:hover {
-  color: rgb(6, 4, 139);
+  color: #0f6f24;
 }
 
 .email:before {
